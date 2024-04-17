@@ -1,0 +1,17 @@
+@import url('style/header.css');
+@import url('style/main.css');
+@import url('style/footer.css');
+
+:root{
+    --header:#192930;
+    --main:#0A1A21;
+    --ciano:#4bffff;
+
+}
+
+body{
+    background-color: var(--main);
+    font-family: "Tilt Neon", sans-serif;
+    
+    
+}

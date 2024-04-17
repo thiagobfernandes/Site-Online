@@ -1,0 +1,354 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+main .imagens{
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  color: var(--ciano);
+  font-size: 20px;
+  
+  
+  
+ 
+    
+    
+
+}
+
+
+
+
+.titulo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--ciano);
+    margin: 20px;
+    margin-top: 190px;
+    
+}
+
+.titulo img{
+    width: 20%;
+}
+main .imagens img {
+    width:20%;
+    padding: 20px;
+    align-items: center;
+    
+    
+}
+
+main .imagens .ryu{
+    box-shadow: 5px 4px 33px 1px rgba(0,0,0,0.75);
+    width:100%;
+    padding: 30px;
+    margin: 20px;
+    transition: transform 300ms ease-out;
+    transition: box-shadow 300ms ease-out;
+
+
+
+}
+main .imagens .ryu:hover{
+    
+    box-shadow: 0px 0px  3px var(--ciano);
+}
+
+main .imagens .skeleton:hover{
+    
+    box-shadow: 0px 0px 3px  var(--ciano);
+
+}
+main .banner img{
+    width: 50%;
+    margin: auto;
+    margin: 40px 0;
+   
+}
+    
+    
+
+main .imagens .skeleton{
+    box-shadow: 5px 4px 33px 1px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    transition: transform 300ms ease-out;
+    transition: box-shadow 300ms ease-out;
+   
+    
+    
+    
+    
+}
+main .imagens .skeleton img{
+    width: 20%;
+
+}
+
+main .layout  {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: var(--ciano);
+    margin-bottom: 14px;
+
+
+
+}
+main .layout img{
+    margin-top: 30px;
+
+}
+main .layout h2 {
+    margin-top: 20px;
+}
+main .layout p{ 
+    font-size: 20px;
+    margin-top: 5px;
+}
+main .imagens .skeleton{
+    margin: 20px;
+    padding: 30px;
+}
+main .thiago .fotos{
+    width: 100%;
+    margin: auto;
+}
+
+main .thiago{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+}
+main .thiago .fotos img{
+    width: 90%;
+    border-radius: 4px;
+    
+}
+main h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    color: var(--ciano);
+    
+}
+main{
+    color: var(--ciano);
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+
+}.banner{
+        margin-top: 100px;
+    }
+  
+    
+
+
+
+
+
+main .banner p{
+    margin: 100px;
+    color: black;
+
+
+}
+
+.mocar{
+    display: none;
+}
+main .ferramenta img{
+    width: 50%;
+
+
+
+}
+
+
+main .ferramentasusada .ferramenta{
+margin: 20px 0;
+width: 15%;
+padding: 0px;
+
+}
+main .ferramentasusada{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+}
+main .celular{
+    display: none;
+}
+
+
+
+
+
+@media(max-width:900px){
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+
+main .imagens p{
+    text-align: center;
+
+}
+
+
+
+main .imagens{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    
+
+    
+
+}
+
+main .imagens .ryu{
+    width: 100%;
+    margin: auto;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+main .imagens .skeleton img{
+    width: 30%;
+}
+main .imagens .skeleton {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.titulo h1{
+    width: 100%;
+    text-align: center;
+}
+
+
+.titulo img{
+    width: 50%;
+
+   
+}
+main .imagens  img{
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+
+
+}
+main .layout{
+    width: 100%;
+}
+
+main .layout img {
+
+    width:100%;
+}
+main h1 {
+    margin: 0px;
+    margin-top: 150px;
+    font-size: 22px;
+}
+main h3{
+    font-size: 16px;
+}
+
+main iframe {
+    display:none;
+}
+main  .banner .erro  {
+   display: block;
+ color: var(--ciano);
+ margin: 0px;
+ padding: 0px;
+}
+
+main .banner .erro h1{
+    padding-top: 30px;
+}
+
+.titulogame{
+    display: none;
+}
+
+main  .banner .erro p  {
+    display: block;
+  color: var(--ciano);
+  margin-top: 40px;
+
+ }
+
+
+ main .ferramenta img {
+    width: 100%;
+ }
+
+ main .ferramentasusada{
+   display: none;
+   
+
+    
+ }
+ main .celular img{
+    width: 30%;
+ }
+ main .celular{
+    display: flex;
+   margin: 40px 0;
+   padding: 10px;
+    width: 90%;
+    align-items: center;
+
+ }
+
+ main h1{
+    
+ }
+ main .thiago{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+}
+main .cliqueaqui{
+    display: none;
+}
+
+ }
+
+
+
+
+
+@media(width > 700px){
+  
+}
+

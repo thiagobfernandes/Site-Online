@@ -1,0 +1,54 @@
+.footer .contato{
+    color: var(--ciano);
+
+}
+.footer{
+   
+    color: var(--ciano);
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: var(--header);
+   
+}
+.footer .redes{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: nowrap;
+}
+.footer .redes p a i{
+    color: var(--ciano);
+    font-size: 24px;
+}
+
+
+
+
+
+.footer .redes p a i:hover{
+    color: cadetblue;
+
+}
+.footer .contato ul{
+    list-style: none;
+}
+
+
+
+
+
+ @media(width < 600px){
+    .footer .contato ul {
+        list-style: none;
+    }
+    
+
+
+
+ }
+    
