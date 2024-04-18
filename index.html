@@ -46,15 +46,16 @@
 
     </header>
     <main>
-        <div class="titulo">
+        <div class="titulo" >
 
-        <h1> <img src="logocenter.png" alt=""> </h1>
+        <h1> <img src="logocenter.png" alt="" data-tilt> </h1>
     </div>
     <div class="imagens">
-        <div class="ryu">
+        <div class="ryu" data-tilt data-tilt-glare data-tilt-max-glare="0.8"  >
             <h2> Personagem Ryu</h2>
             <p> "Arte da Ocultação" é o nome do jogo. Ele é baseado em Ryu.</p>
-            <img src="imagens/Ryu.png" alt="">
+            <div class="perso">
+            <img src="imagens/Ryu.png" alt=""></div>
 
             <p>Ryu é um garoto que lutará com monstros para sobreviver. <br>
                 Para ganhar O jogo , ele terá que alcançar certa pontuação.</p>
@@ -64,17 +65,18 @@
 
 
         </div>
-        <div class="skeleton">
+        <div class="skeleton" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
             <h2> Inimigos</h2>
             <p> Skeleton Será o inimigo de Ryu </p>
-             <img src="imagens/skeleteon.png" alt="">
+            <div class="perso">
+             <img src="imagens/skeleteon.png" alt=""></div>
              <p >Na primeira parte do jogo você terá que  <br>Matar os Skeleton, no primeiro cenario havera 5 deles e para avançar ao proximo cenario, tera que destruir esses 5, fazendo assim ir para o proximo desafio </p></div>
              <p></p>
     </div>
-    <div class="layout">
+    <div class="layout" >
         <h2>Arte da Ocultação</h2>
         <p>Esse Jogo terá Layouts com diferentes Dificultades</p>
-        <img src="imagens/Screenshot 2024-04-06 170127.png" alt=" Layout" title=" Layouts">
+        <img src="imagens/Screenshot 2024-04-06 170127.png" alt=" Layout" title=" Layouts" >
         <p>Neste, o Jogador de tera que matar os skeleton, todos eles e assim que os matar ele ganhara o game</p>
         
     </div>
@@ -123,6 +125,7 @@
 
     </footer>
 
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
         function mostrarmenu() {
             var menu =document.querySelector(".links nav");
@@ -130,7 +133,13 @@
 
 
         }
-
+        VanillaTilt.init(document.querySelector(".your-element"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".your-element"));
 
     </script>
 </body>
