@@ -66,11 +66,11 @@
         <div class="thiago">
            
             <div class="fotos">
-                <img src="usarei.jpg" alt="">
+                <img src="usarei.jpg" alt="" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
 
             </div>
-            <div class="fotos"> <img src="usarei2.jpg" alt=""></div>
-            <div class="fotos"> <img src="Usarei6.jpg" alt=""></div>
+            <div class="fotos" > <img src="usarei2.jpg" alt="" data-tilt data-tilt-glare data-tilt-max-glare="0.8"></div>
+            <div class="fotos"> <img src="Usarei6.jpg" alt="" data-tilt data-tilt-glare data-tilt-max-glare="0.8"></div>
         </div>
         
 
@@ -99,14 +99,22 @@
 
 
     </footer>
-
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
+        
         function mostrarmenu() {
             var menu =document.querySelector(".links nav");
             menu.classList.toggle("mostrar");
 
 
         }
+        VanillaTilt.init(document.querySelector(".your-element"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".your-element"));
 
 
     </script>
